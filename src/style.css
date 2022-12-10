@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+main,
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+a {
+  margin-right: auto;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+  text-transform: capitalize;
+}
+
+ul {
+  list-style: none;
+  color: #51503c;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+li:hover {
+  background-color: #eeeeee;
+}
+
+ul li i {
+  font-size: 24px;
+}
+
+ul li span {
+  padding: 4px;
+  font-size: 12px;
+}
+
+h3,
+h1 {
+  text-transform: capitalize;
+}
+
+h1 {
+  font-family: "Kenia", cursive;
+}
+
+h3 {
+  margin-right: auto;
+}
+
+textarea {
+  resize: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #db4c3f;
+}
+
+header div {
+  width: 24px;
+}
+
+header img {
+  max-width: 100%;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+}
+
+aside {
+  width: 288px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+}
+
+.default-box {
+  height: 30%;
+  padding: 32px 16px 16px;
+}
+
+.new-box {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 16px;
+}
+
+.new-headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 4px 4px 0;
+  color: #51503c;
+  text-transform: capitalize;
+}
+
+section {
+  flex-grow: 1;
+  padding: 32px 8px 8px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.project-headline {
+  display: flex;
+}
+
+.project-todos .task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  gap: 16px;
+  border-left: 1px solid;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 8px;
+  background-color: #fff9f3;
+}
+
+.inbox {
+  color: #246fe0;
+}
+
+.today {
+  color: #058527;
+}
+
+.week {
+  color: #8d62d0;
+}
+
+.active {
+  background-color: #eeeeee;
+}
+
+.hidden {
+  display: none;
+}
